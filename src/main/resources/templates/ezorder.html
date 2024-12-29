@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EzOrder</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <script th:src="@{/js/lib/axios.min.js}"></script>
+    <script type="text/javascript" th:inline="javascript">
+        window.onload = ()=>{
+           const upload = document.querySelector('#upload');
+           upload.onchange =(e)=>{
+                var target  =e.target
+                var reader = new FileReader();
+
+                reader.onload=function(){
+                    var result = reader.result.split("\n");
+                    var requestData = {"data":[]}
+                    result.forEach(r=>{
+                        var data = {}
+                        var _d = r.split(",")
+                        data.order_no = _d[0];
+                        data.custom_phone = _d[1];
+                        data.agent_phone = _d[2];
+
+                        requestData.data.push(data);
+                    });
+
+                    if(requestData.data.length > 0){
+                        var url =[[@{/api/InsertOrderRecord}]];
+                        axios.post(url,requestData).then(res => {
+                            alert('上傳資料成功');
+                        }).catch(err => {
+                          alert('上傳資料失敗:' + err)
+                        })
+
+                    }
+
+                }
+
+            reader.readAsText(target.files[0]);
+
+           }
+        }
+
+    </script>
+</head>
+<body>
+<input type="file" id="upload" accept=".csv">
+</body>
+</html>

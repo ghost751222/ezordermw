@@ -1,0 +1,68 @@
+[2021-02-19 13:40:07] [INFO ] [restartedMain] [org.springframework.boot.StartupInfoLogger] [55] - Starting EzOrdermwApplication using Java 1.8.0_242 on YY-PC with PID 15040 (D:\Consiliuminc\IntelljWorkspace\ezordermw\target\classes started by YY-PC in D:\Consiliuminc\IntelljWorkspace\ezordermw)
+[2021-02-19 13:40:07] [INFO ] [restartedMain] [org.springframework.boot.SpringApplication] [660] - No active profile set, falling back to default profiles: default
+[2021-02-19 13:40:07] [INFO ] [restartedMain] [org.springframework.boot.logging.DeferredLog] [255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2021-02-19 13:40:07] [INFO ] [restartedMain] [org.springframework.boot.logging.DeferredLog] [255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2021-02-19 13:40:08] [INFO ] [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [250] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-02-19 13:40:08] [INFO ] [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[2021-02-19 13:40:08] [INFO ] [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport] [349] - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.macaron.ezordermw.repository.OrderListRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+[2021-02-19 13:40:08] [INFO ] [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [188] - Finished Spring Data repository scanning in 43 ms. Found 0 JDBC repository interfaces.
+[2021-02-19 13:40:08] [INFO ] [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [250] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-02-19 13:40:08] [INFO ] [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [128] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-02-19 13:40:08] [INFO ] [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [188] - Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+[2021-02-19 13:40:10] [INFO ] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [108] - Tomcat initialized with port(s): 8080 (http)
+[2021-02-19 13:40:10] [INFO ] [restartedMain] [org.apache.juli.logging.DirectJDKLog] [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[2021-02-19 13:40:10] [INFO ] [restartedMain] [org.apache.juli.logging.DirectJDKLog] [173] - Starting service [Tomcat]
+[2021-02-19 13:40:10] [INFO ] [restartedMain] [org.apache.juli.logging.DirectJDKLog] [173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[2021-02-19 13:40:10] [INFO ] [restartedMain] [org.apache.juli.logging.DirectJDKLog] [173] - Initializing Spring embedded WebApplicationContext
+[2021-02-19 13:40:10] [INFO ] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [289] - Root WebApplicationContext: initialization completed in 3768 ms
+[2021-02-19 13:40:11] [INFO ] [restartedMain] [org.hibernate.jpa.internal.util.LogHelper] [31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-02-19 13:40:11] [INFO ] [restartedMain] [org.hibernate.Version] [44] - HHH000412: Hibernate ORM core version 5.4.27.Final
+[2021-02-19 13:40:12] [INFO ] [restartedMain] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-02-19 13:40:12] [INFO ] [restartedMain] [com.zaxxer.hikari.HikariDataSource] [110] - HikariPool-1 - Starting...
+[2021-02-19 13:40:12] [INFO ] [restartedMain] [com.zaxxer.hikari.HikariDataSource] [123] - HikariPool-1 - Start completed.
+[2021-02-19 13:40:12] [INFO ] [restartedMain] [org.hibernate.dialect.Dialect] [175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[2021-02-19 13:40:13] [INFO ] [restartedMain] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-02-19 13:40:13] [INFO ] [restartedMain] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-02-19 13:40:13] [INFO ] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [58] - LiveReload server is running on port 35729
+[2021-02-19 13:40:14] [WARN ] [restartedMain] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [221] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-02-19 13:40:14] [INFO ] [restartedMain] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [181] - Initializing ExecutorService 'applicationTaskExecutor'
+[2021-02-19 13:40:14] [INFO ] [restartedMain] [org.apache.juli.logging.DirectJDKLog] [173] - Starting ProtocolHandler ["http-nio-8080"]
+[2021-02-19 13:40:14] [INFO ] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [220] - Tomcat started on port(s): 8080 (http) with context path '/EzOrderMW'
+[2021-02-19 13:40:14] [INFO ] [restartedMain] [org.springframework.boot.StartupInfoLogger] [61] - Started EzOrdermwApplication in 8.147 seconds (JVM running for 9.362)
+[2021-02-19 13:42:31] [INFO ] [http-nio-8080-exec-1] [org.apache.juli.logging.DirectJDKLog] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-02-19 13:42:31] [INFO ] [http-nio-8080-exec-1] [org.springframework.web.servlet.FrameworkServlet] [525] - Initializing Servlet 'dispatcherServlet'
+[2021-02-19 13:42:31] [INFO ] [http-nio-8080-exec-1] [org.springframework.web.servlet.FrameworkServlet] [547] - Completed initialization in 1 ms
+[2021-02-19 13:44:49] [INFO ] [restartedMain] [org.springframework.boot.StartupInfoLogger] [55] - Starting EzOrdermwApplication using Java 1.8.0_242 on YY-PC with PID 15076 (D:\Consiliuminc\IntelljWorkspace\ezordermw\target\classes started by YY-PC in D:\Consiliuminc\IntelljWorkspace\ezordermw)
+[2021-02-19 13:44:49] [INFO ] [restartedMain] [org.springframework.boot.SpringApplication] [660] - No active profile set, falling back to default profiles: default
+[2021-02-19 13:44:49] [INFO ] [restartedMain] [org.springframework.boot.logging.DeferredLog] [255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2021-02-19 13:44:49] [INFO ] [restartedMain] [org.springframework.boot.logging.DeferredLog] [255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2021-02-19 13:44:50] [INFO ] [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [250] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-02-19 13:44:50] [INFO ] [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [128] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[2021-02-19 13:44:50] [INFO ] [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport] [349] - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.macaron.ezordermw.repository.OrderListRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+[2021-02-19 13:44:50] [INFO ] [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [188] - Finished Spring Data repository scanning in 41 ms. Found 0 JDBC repository interfaces.
+[2021-02-19 13:44:50] [INFO ] [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [250] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2021-02-19 13:44:50] [INFO ] [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [128] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-02-19 13:44:50] [INFO ] [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [188] - Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+[2021-02-19 13:44:52] [INFO ] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [108] - Tomcat initialized with port(s): 8080 (http)
+[2021-02-19 13:44:52] [INFO ] [restartedMain] [org.apache.juli.logging.DirectJDKLog] [173] - Initializing ProtocolHandler ["http-nio-8080"]
+[2021-02-19 13:44:52] [INFO ] [restartedMain] [org.apache.juli.logging.DirectJDKLog] [173] - Starting service [Tomcat]
+[2021-02-19 13:44:52] [INFO ] [restartedMain] [org.apache.juli.logging.DirectJDKLog] [173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[2021-02-19 13:44:52] [INFO ] [restartedMain] [org.apache.juli.logging.DirectJDKLog] [173] - Initializing Spring embedded WebApplicationContext
+[2021-02-19 13:44:52] [INFO ] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [289] - Root WebApplicationContext: initialization completed in 3674 ms
+[2021-02-19 13:44:53] [INFO ] [restartedMain] [org.hibernate.jpa.internal.util.LogHelper] [31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-02-19 13:44:53] [INFO ] [restartedMain] [org.hibernate.Version] [44] - HHH000412: Hibernate ORM core version 5.4.27.Final
+[2021-02-19 13:44:53] [INFO ] [restartedMain] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-02-19 13:44:53] [INFO ] [restartedMain] [com.zaxxer.hikari.HikariDataSource] [110] - HikariPool-1 - Starting...
+[2021-02-19 13:44:53] [INFO ] [restartedMain] [com.zaxxer.hikari.HikariDataSource] [123] - HikariPool-1 - Start completed.
+[2021-02-19 13:44:54] [INFO ] [restartedMain] [org.hibernate.dialect.Dialect] [175] - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[2021-02-19 13:44:54] [INFO ] [restartedMain] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-02-19 13:44:54] [INFO ] [restartedMain] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-02-19 13:44:54] [INFO ] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [58] - LiveReload server is running on port 35729
+[2021-02-19 13:44:55] [WARN ] [restartedMain] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [221] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-02-19 13:44:55] [INFO ] [restartedMain] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [181] - Initializing ExecutorService 'applicationTaskExecutor'
+[2021-02-19 13:44:55] [INFO ] [restartedMain] [org.apache.juli.logging.DirectJDKLog] [173] - Starting ProtocolHandler ["http-nio-8080"]
+[2021-02-19 13:44:55] [INFO ] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [220] - Tomcat started on port(s): 8080 (http) with context path '/EzOrderMW'
+[2021-02-19 13:44:55] [INFO ] [restartedMain] [org.springframework.boot.StartupInfoLogger] [61] - Started EzOrdermwApplication in 7.36 seconds (JVM running for 8.649)
+[2021-02-19 13:45:42] [INFO ] [http-nio-8080-exec-1] [org.apache.juli.logging.DirectJDKLog] [173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-02-19 13:45:42] [INFO ] [http-nio-8080-exec-1] [org.springframework.web.servlet.FrameworkServlet] [525] - Initializing Servlet 'dispatcherServlet'
+[2021-02-19 13:45:42] [INFO ] [http-nio-8080-exec-1] [org.springframework.web.servlet.FrameworkServlet] [547] - Completed initialization in 2 ms
